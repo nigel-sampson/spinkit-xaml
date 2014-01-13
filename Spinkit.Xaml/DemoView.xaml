@@ -22,77 +22,77 @@
     </Page.Resources>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        
-        <Border Height="100" Margin="120,0,0,0" VerticalAlignment="Top">
-            <TextBlock x:Uid="DemoTitle" Style="{StaticResource HeaderTextBlockStyle}" VerticalAlignment="Bottom"/>
-        </Border>
-
+       
         <FlipView>
             <FlipViewItem>
-                <Grid>
+                <Grid Background="#FFD35400">
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <ProgressRing IsActive="True" Width="80" Height="80" Style="{StaticResource RotatingPlaneProgressRingStyle}" />
+                        <ProgressRing IsActive="True" Width="80" Height="80" Foreground="{StaticResource ApplicationForegroundThemeBrush}" Style="{StaticResource RotatingPlaneProgressRingStyle}" />
                         <TextBlock x:Uid="RotatingPlaneTitle" Style="{StaticResource ProgressTitleTextBlockStyle}" />
                     </StackPanel>
                 </Grid>
             </FlipViewItem>
             <FlipViewItem>
-                <Grid>
+                <Grid Background="#FF2C3E50">
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <ProgressRing IsActive="True" Width="80" Height="80" Style="{StaticResource DoubleBounceProgressRingStyle}" />
+                        <ProgressRing IsActive="True" Width="80" Height="80" Foreground="{StaticResource ApplicationForegroundThemeBrush}" Style="{StaticResource DoubleBounceProgressRingStyle}" />
                         <TextBlock x:Uid="DoubleBounceTitle" Style="{StaticResource ProgressTitleTextBlockStyle}" />
                     </StackPanel>
                 </Grid>
             </FlipViewItem>
             <FlipViewItem>
-                <Grid>
+                <Grid Background="#FF1ABC9C">
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <ProgressRing IsActive="True" Width="80" Height="80" Style="{StaticResource WaveProgressRingStyle}" />
+                        <ProgressRing IsActive="True" Width="80" Height="80" Foreground="{StaticResource ApplicationForegroundThemeBrush}" Style="{StaticResource WaveProgressRingStyle}" />
                         <TextBlock x:Uid="WaveTitle" Style="{StaticResource ProgressTitleTextBlockStyle}" />
                     </StackPanel>
                 </Grid>
             </FlipViewItem>
             <FlipViewItem>
-                <Grid>
+                <Grid Background="#FF2980B9">
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <ProgressRing IsActive="True" Width="80" Height="80" Style="{StaticResource WanderingCubesProgressRingStyle}" />
+                        <ProgressRing IsActive="True" Width="80" Height="80" Foreground="{StaticResource ApplicationForegroundThemeBrush}" Style="{StaticResource WanderingCubesProgressRingStyle}" />
                         <TextBlock x:Uid="WanderingCubesTitle" Style="{StaticResource ProgressTitleTextBlockStyle}" />
                     </StackPanel>
                 </Grid>
             </FlipViewItem>
             <FlipViewItem>
-                <Grid>
+                <Grid Background="#FF7F8C8D">
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <ProgressRing IsActive="True" Width="80" Height="80" Style="{StaticResource PulseProgressRingStyle}" />
+                        <ProgressRing IsActive="True" Width="80" Height="80" Foreground="{StaticResource ApplicationForegroundThemeBrush}" Style="{StaticResource PulseProgressRingStyle}" />
                         <TextBlock x:Uid="PulseTitle" Style="{StaticResource ProgressTitleTextBlockStyle}" />
                     </StackPanel>
                 </Grid>
             </FlipViewItem>
             <FlipViewItem>
-                <Grid>
+                <Grid Background="#FFF1C40F">
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <ProgressRing IsActive="True" Width="80" Height="80" Style="{StaticResource ChasingDotsProgressRingStyle}" />
+                        <ProgressRing IsActive="True" Width="80" Height="80" Foreground="{StaticResource ApplicationForegroundThemeBrush}" Style="{StaticResource ChasingDotsProgressRingStyle}" />
                         <TextBlock x:Uid="ChasingDotsTitle" Style="{StaticResource ProgressTitleTextBlockStyle}" />
                     </StackPanel>
                 </Grid>
             </FlipViewItem>
             <FlipViewItem>
-                <Grid>
+                <Grid Background="#FFD35400">
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <ProgressRing IsActive="True" Width="80" Height="80" Style="{StaticResource ThreeBounceProgressRingStyle}" />
+                        <ProgressRing IsActive="True" Width="80" Height="80" Foreground="{StaticResource ApplicationForegroundThemeBrush}" Style="{StaticResource ThreeBounceProgressRingStyle}" />
                         <TextBlock x:Uid="ThreeBounceTitle" Style="{StaticResource ProgressTitleTextBlockStyle}" />
                     </StackPanel>
                 </Grid>
             </FlipViewItem>
             <FlipViewItem>
-                <Grid>
+                <Grid Background="#FF27AE60">
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <ProgressRing IsActive="True" Width="80" Height="80" Style="{StaticResource CircleProgressRingStyle}" />
+                        <ProgressRing IsActive="True" Width="80" Height="80" Foreground="{StaticResource ApplicationForegroundThemeBrush}" Style="{StaticResource CircleProgressRingStyle}" />
                         <TextBlock x:Uid="CircleTitle" Style="{StaticResource ProgressTitleTextBlockStyle}" />
                     </StackPanel>
                 </Grid>
             </FlipViewItem>
         </FlipView>
+
+        <Border Height="100" Margin="120,0,0,0" VerticalAlignment="Top">
+            <TextBlock x:Uid="DemoTitle" Style="{StaticResource HeaderTextBlockStyle}" FontWeight="Black" VerticalAlignment="Bottom"/>
+        </Border>
 
         <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,80,80" Style="{StaticResource ContentButton}" Click="OnViewSource">
             <StackPanel Orientation="Horizontal">
