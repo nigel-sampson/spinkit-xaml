@@ -3,10 +3,11 @@ This package will import the Spinkit.Styles.xaml resource dictionary into your p
 <Application.Resources>
   <ResourceDictionary>
     <ResourceDictionary.MergedDictionaries>
-      <ResourceDictionary Source="Resources/Spinkit.Styles.xaml" />
+      <ResourceDictionary Source="Spinkit.Styles.xaml" />
     </ResourceDictionary.MergedDictionaries>
   </ResourceDictionary>
 </Application.Resources>
+
 You can then mark up your Progress Ring controls with the new styles.
 
 <ProgressRing IsActive="True" Style="{StaticResource RotatingPlaneProgressRingStyle}" />
