@@ -7,18 +7,10 @@
     mc:Ignorable="d">
     
     <Page.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Controls.xaml" />
-                <ResourceDictionary Source="Resources/Spinkit.Styles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-            
-            <Style x:Key="ProgressTitleTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BodyTextBlockStyle}">
-                <Setter Property="Margin" Value="0,20,0,0"/>
-                <Setter Property="HorizontalAlignment" Value="Center"/>
-            </Style>
-            
-        </ResourceDictionary>
+        <Style x:Key="ProgressTitleTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BodyTextBlockStyle}">
+            <Setter Property="Margin" Value="0,20,0,0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
     </Page.Resources>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
