@@ -123,11 +123,17 @@
   <data name="CircleTitle.Text" xml:space="preserve">
     <value>Circle</value>
   </data>
+  <data name="CreatedButton.Text" xml:space="preserve">
+    <value>created by @nigelsampson</value>
+  </data>
   <data name="DemoTitle.Text" xml:space="preserve">
     <value>Spinkit Xaml Demo</value>
   </data>
   <data name="DoubleBounceTitle.Text" xml:space="preserve">
     <value>Double Bounce</value>
+  </data>
+  <data name="InspiredButton.Text" xml:space="preserve">
+    <value>inspired by @tobiasahlin</value>
   </data>
   <data name="PulseTitle.Text" xml:space="preserve">
     <value>Pulse</value>

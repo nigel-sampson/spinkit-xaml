@@ -136,9 +136,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Images\Logo.scale-100.png" />
+    <Content Include="Resources\Images\nigelsampson.jpeg" />
     <Content Include="Resources\Images\SmallLogo.scale-100.png" />
     <Content Include="Resources\Images\SplashScreen.scale-100.png" />
     <Content Include="Resources\Images\StoreLogo.scale-100.png" />
+    <Content Include="Resources\Images\tobiasahlin.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

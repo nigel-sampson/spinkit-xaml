@@ -92,6 +92,24 @@
                 <TextBlock x:Uid="SourceButton" VerticalAlignment="Center" Style="{StaticResource TitleTextBlockStyle}" TextLineBounds="TrimToCapHeight"/>
             </StackPanel>
         </Button>
+
+        <Button VerticalAlignment="Bottom" Margin="80,0,0,160" Style="{StaticResource ContentButton}" Click="OnViewCreated">
+            <StackPanel Orientation="Horizontal">
+                <Border BorderBrush="{StaticResource ApplicationForegroundThemeBrush}" BorderThickness="1" Margin="0,0,20,0">
+                    <Image Source="/Resources/Images/nigelsampson.jpeg" Width="40" Height="40" />
+                </Border>
+                <TextBlock x:Uid="CreatedButton" VerticalAlignment="Center" Style="{StaticResource TitleTextBlockStyle}" TextLineBounds="TrimToCapHeight"/>
+            </StackPanel>
+        </Button>
+
+        <Button VerticalAlignment="Bottom" Margin="80,0,0,80" Style="{StaticResource ContentButton}" Click="OnViewInspired">
+            <StackPanel Orientation="Horizontal">
+                <Border BorderBrush="{StaticResource ApplicationForegroundThemeBrush}" BorderThickness="1" Margin="0,0,20,0">
+                    <Image Source="/Resources/Images/tobiasahlin.jpeg" Width="40" Height="40" />
+                </Border>
+                <TextBlock x:Uid="InspiredButton" VerticalAlignment="Center" Style="{StaticResource TitleTextBlockStyle}" TextLineBounds="TrimToCapHeight"/>
+            </StackPanel>
+        </Button>
         
     </Grid>
 </Page>
