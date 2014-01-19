@@ -4,7 +4,7 @@
   <Properties>
     <DisplayName>Spinkit.Xaml</DisplayName>
     <PublisherDisplayName>Nigel Sampson</PublisherDisplayName>
-    <Logo>Resources\Images\StoreLogo.png</Logo>
+    <Logo>Resources\Images\Store-Logo.png</Logo>
   </Properties>
   <Prerequisites>
     <OSMinVersion>6.3.0</OSMinVersion>
@@ -15,8 +15,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Spinkit.Xaml.App">
-      <m2:VisualElements DisplayName="Spinkit - Xaml" Square150x150Logo="Resources\Images\Logo.png" Square30x30Logo="Resources\Images\SmallLogo.png" Description="Xaml port of the Spinkit spinners." ForegroundText="light" BackgroundColor="#464646">
-        <m2:SplashScreen Image="Resources\Images\SplashScreen.png" />
+      <m2:VisualElements DisplayName="Spinkit - Xaml" Square150x150Logo="Resources\Images\Logo.png" Square30x30Logo="Resources\Images\Small-Logo.png" Description="Xaml port of the Spinkit spinners." ForegroundText="light" BackgroundColor="#D35400">
+        <m2:SplashScreen Image="Resources\Images\Splash-Screen.png" BackgroundColor="#D35400" />
       </m2:VisualElements>
     </Application>
   </Applications>
