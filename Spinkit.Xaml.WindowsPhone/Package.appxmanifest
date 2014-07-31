@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="3c91fe64-c879-4c34-8bde-dfc60e8b2c39" Publisher="CN=Nigel" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="3c91fe64-c879-4c34-8bde-dfc60e8b2c39" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Spinkit.Xaml.WindowsPhone</DisplayName>
+    <PublisherDisplayName>Nigel</PublisherDisplayName>
+    <Logo>Resources\Images\Store-Logo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Spinkit.Xaml.WindowsPhone.App">
+      <m3:VisualElements DisplayName="Spinkit.Xaml.WindowsPhone" Square150x150Logo="Resources\Images\Logo.png" Square44x44Logo="Resources\Images\Square-Small-Logo.png" Description="Spinkit.Xaml.WindowsPhone" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Square71x71Logo="Resources\Images\Square-Logo.png">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Resources\Images\SplashScreen.png" />
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+  </Capabilities>
+</Package>
