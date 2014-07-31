@@ -2,20 +2,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>SpinKit.Xaml</id>
-        <version>1.0.2</version>
+        <version>1.1.0</version>
         <title>SpinKit.Xaml</title>
         <authors>Nigel Sampson</authors>
         <owners>Nigel Sampson</owners>
         <projectUrl>https://github.com/nigel-sampson/spinkit-xaml</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>A collection of styles for a Windows 8 Progress Ring control. Inspired by SpinKit from Tobias Ahlin.</description>
+        <description>A collection of styles for a Windows 8 and Windows Phone 8.1 Progress Ring control. Inspired by SpinKit from Tobias Ahlin.</description>
         <summary />
         <releaseNotes>Initial Release</releaseNotes>
         <copyright>Copyright 2014</copyright>
-        <tags>Windows 8, Progress Ring, Styles</tags>
+        <tags>Windows 8, Windows Phone 8.1, Shared, Progress Ring, Styles</tags>
     </metadata>
     <files>
-        <file src="..\Spinkit.Xaml\Resources\Spinkit.Styles.xaml" target="content\netcore\Spinkit.Styles.xaml" />
+        <file src="..\Spinkit.Xaml.Shared\Resources\Spinkit.Styles.xaml" target="content\netcore\Spinkit.Styles.xaml" />
+        <file src="..\Spinkit.Xaml.Shared\Resources\Spinkit.Styles.xaml" target="content\wpa\Spinkit.Styles.xaml" />
         <file src="ReadMe.txt" target="ReadMe.txt" />
     </files>
 </package>
