@@ -26,7 +26,7 @@ Which will import the **Spinkit.Styles.xaml** resource dictionary into your proj
 
 You can then mark up your Progress Ring controls with the new styles.
 
-```Xmal
+```Xml
 <ProgressRing IsActive="True" Style="{StaticResource RotatingPlaneProgressRingStyle}" />
 ```
 
